@@ -1,0 +1,23 @@
+演習6-2
+--------------------------------------------------
+Oracle Database
+コマンド : ALTER INDEX インデックス名 REBUILD;
+を用いる
+
+SQL Server
+コマンド : ALTER INDEX インデックス名 REORGANIZE
+を用いる
+
+DB2
+コマンド : REORGCHK INDEXES ALL FOR TABLE "スキーマ名"."テーブル名"
+ですべてのインデックスを再編成する。
+コマンド : REORG TABLE "スキーマ名"."テーブル名" CLEANUP ONLY
+
+PostgreSQL
+コマンド : REINDEX インデックス名;
+を用いる。
+
+MySQL
+コマンド : ANALYZE TABLE テーブル名
+を用いる
+
