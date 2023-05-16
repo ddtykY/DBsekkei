@@ -1,0 +1,7 @@
+演習2-2
+--------------------------------------------------
+Windows : systeminfo
+
+Mac os  : system_profiler
+
+Linux   : dmidecode
