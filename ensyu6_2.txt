@@ -18,6 +18,6 @@ PostgreSQL
 を用いる。
 
 MySQL
-コマンド : ANALYZE TABLE テーブル名
+コマンド : OPTIMIZE TABLE テーブル名
 を用いる
 
